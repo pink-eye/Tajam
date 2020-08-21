@@ -1,0 +1,121 @@
+.testimonials {
+	width: 100%;
+
+	background: url(../img/testimonials/testimonials__bg.png) bottom / cover no-repeat;
+
+	&__quote {
+		opacity: 0.9;
+		color: #ffffff;
+		font-family: "Merriweather";
+		font-size: 100px;
+		font-weight: 400;
+		letter-spacing: 3px;
+	}
+
+	&__text {
+		margin: 0 0 50px 0;
+
+		opacity: 0.85;
+		color: #ffffff;
+		font-family: "Merriweather";
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 26px;
+		letter-spacing: 0.4px;
+
+		@media (max-width: 768px) {
+			margin: -10px 0 50px 0;
+		}
+
+		@media (max-width: 500px) {
+			margin: -30px 0 50px 0;
+		}
+	}
+
+	&__image {
+		display: inline-block;
+
+		margin: 45px 0 0 0;
+		width: 45px;
+		height: 45px;
+
+		img {
+			max-width: 100%;
+		}
+	}
+}
+
+.slider-test {
+	position: relative;
+	
+	max-width: 490px;
+	margin: 0 auto;
+
+	.slick-list {
+		display: flex;
+
+		overflow: hidden;
+	}
+
+	.slick-track {
+		display: flex;
+	}
+
+	&__item {
+		flex: 0 0 auto;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-end;
+		align-items: center;
+
+		opacity: 0;
+		outline: 0;
+
+		transition: opacity ease-in-out 0.3s;
+	}
+
+	.slick-active {
+		opacity: 1;
+
+		margin: 0 7.5px;
+
+		transition: opacity ease-in-out 0.3s, padding ease-in-out .5s;
+	}
+
+	.slick-current {
+		padding: 0;
+		margin: 0;
+
+		.testimonials__image {
+			width: 70px;
+			height: 70px;
+		}
+
+		transition: ease-in-out 0.3s;
+	}
+
+	.slick-arrow {
+		position: absolute;
+		bottom: 20px;
+		z-index: 2;
+
+		width: 11px;
+		height: 21px;
+
+		font-size: 0;
+
+		background: url(../img/testimonials/forward.svg) center no-repeat;
+		opacity: 0.5;
+		cursor: pointer;
+	}
+
+	.slick-prev {
+		left: 0;
+
+		transform: rotate(180deg);
+	}
+
+	.slick-next {
+		right: 0;
+	}
+}

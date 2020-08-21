@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11 21" width="11" height="21">
+	<defs>
+		<image width="11" height="21" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAVCAYAAACQcBTNAAAArElEQVQ4T5XTSQoCMRCF4a8F7+JCVBTEae21vJRHcEREcONpGqSkAyJq0lkF6n81vFQqbHDFVuZUeKCHFfb/+IC7OGKSEwQcp4MbBpjj9K1CgiMW9zv6mOLyKXiHUywqjDDD+V3wDY54uDPGopnnpfkFxwzRRgiWOPyDUyxaGiaXfmVOrUaFXePQOgcnW2vUObg4cyQq6rmVG8U+F71g8W4Ub12rfW71U4r/4BO3oCicWBOZtgAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="Content">
+		<g id="Testimonials">
+			<g id="Pict">
+				<g id="nav">
+					<use id="forward" href="#img1" transform="matrix(1,0,0,1,0,0)"/>
+				</g>
+			</g>
+		</g>
+	</g>
+</svg>

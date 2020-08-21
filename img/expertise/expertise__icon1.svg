@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 49 50" width="49" height="50">
+	<defs>
+		<image width="49" height="50" id="img1" href="data:image/png;base64,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"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="Content">
+		<g id="Expertise">
+			<g id="Items">
+				<g id="Top">
+					<g id="left">
+						<use id="PUT YOUR ICON HERE" href="#img1" transform="matrix(1,0,0,1,0,0)"/>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</svg>

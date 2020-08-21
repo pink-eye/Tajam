@@ -1,0 +1,52 @@
+.story {
+
+	width: 100%;
+
+	@media (max-width: 768px) {
+		&__row {
+			flex-direction: column-reverse;
+		}
+
+		&__body {
+			margin: 0 0 40px 0 !important;
+		}
+	}
+
+	&__title {color: #413d4b;}
+
+	&__row {
+		display: flex;
+		align-items: center;
+
+	}
+
+	&__image {
+		flex: 0 0 auto;
+	}
+
+	&__body {
+		flex: 0 1 auto;
+
+		margin: 0 0 0 100px;
+
+		text-align: left;
+	}
+
+	&__text {
+		margin: 30px 0 0 0;
+
+		color: #413d4b;
+
+		p {
+			margin: 30px 0 0 0;
+
+			&:first-child {
+				margin: 0;
+			}
+		}
+	}
+
+	&__button {
+		margin: 30px 0 0 0;
+	}
+}
