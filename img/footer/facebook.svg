@@ -1,1 +1,6 @@
-<svg width="7" height="15" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="993 5200 7 15"><image xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAPCAYAAAAoAdW+AAAAw0lEQVQoU63QsSrGURQA8N8psphsJqu34A1MjL6IkpKsHsBgkuWrz/B9MvECvIMyyG4xWJRRSVdH59b/Adzp3Ps7nXPuCXVaa+s4xSrm8RZprbVlvGCpJ+O74ybuCj5wj9eOI8wKxxFxmHG01lawhfPCa5zhJzF7ZcJi4Rc+8Z6Yl4XBID18SjzBGjbq9REPeO4DZc/bwsuIOP4bqP65j0nhLCJ2hriHq8JpROz+Dx5gXGVvImJ7WDbXd4G5XGNEHCX+AtouUFVrVyYJAAAAAElFTkSuQmCC" width="7" height="15" x="993" y="5200"/></svg>
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve" width="512px" height="512px" class="hovered-paths"><g><g>
+	<g>
+		<path d="M288,176v-64c0-17.664,14.336-32,32-32h32V0h-64c-53.024,0-96,42.976-96,96v80h-64v80h64v256h96V256h64l32-80H288z" data-original="#000000" class="hovered-path active-path" data-old_color="#000000" fill="#FFFFFF"/>
+	</g>
+</g></g> </svg>

@@ -132,6 +132,16 @@
 		border-radius: 50%;
 
 		cursor: pointer;
+
+		svg {
+
+			height: 17px;
+			width: 17px;
+
+			path {
+				fill: #fff;
+			}
+		}
 	}
 
 	&__row {
@@ -173,6 +183,7 @@
 		cursor: pointer;
 
 		transition: ease-in-out 0.3s;
+
 
 		&:nth-child(2n) {
 			margin: 0px 30px;

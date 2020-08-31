@@ -1,3 +1,4 @@
+@import "_popup";
 @import "_footer";
 @import "_contact";
 @import "_testimonials";
@@ -8,9 +9,12 @@
 @import "_story";
 @import "_header";
 
+* {
+	transition: all 0.3s ease-in-out 0s;
+}
+
 .wrapper {
 	max-width: 950px;
-	min-height: inherit;
 	margin: 0 auto;
 	padding: 0 20px;
 
