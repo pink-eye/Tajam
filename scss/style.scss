@@ -126,3 +126,10 @@
 		border-top: 1px solid rgba($color: #000000, $alpha: 0.1);
 	}
 }
+
+.page-wrapper {
+	min-height: 100vh;
+	transition: 0s;
+}
+
+body {transition: 0s;}

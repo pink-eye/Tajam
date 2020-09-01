@@ -1573,3 +1573,14 @@
     border-top: 1px solid rgba(0, 0, 0, 0.1);
   }
 }
+
+.page-wrapper {
+  min-height: 100vh;
+  -webkit-transition: 0s;
+  transition: 0s;
+}
+
+body {
+  -webkit-transition: 0s;
+  transition: 0s;
+}
